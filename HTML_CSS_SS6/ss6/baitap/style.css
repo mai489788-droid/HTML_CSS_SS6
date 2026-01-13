@@ -1,0 +1,77 @@
+body {
+    background-color: #fff7ed;
+    font-family: cursive;
+}
+
+/* Tiêu đề */
+.page-title {
+    background-color: #fde68a;
+    text-align: center;
+    padding: 15px;
+    color: #92400e;
+}
+
+/* Menu */
+.nav-menu {
+    background-color: #fed7aa;
+    list-style: none;
+    text-align: center;
+    padding: 12px;
+}
+
+.nav-menu li {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    color: #92400e;
+    padding: 6px 10px;
+}
+
+/* Hover menu giống ảnh đề */
+.nav-menu li:hover {
+    background-color: #78350f;
+    color: yellow;
+}
+
+/* Ảnh */
+.main-image {
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Khối nội dung */
+.section-box {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+}
+
+.section-title {
+    color: #92400e;
+    margin-bottom: 10px;
+}
+
+/* Danh sách */
+.doctor-list,
+.commit-list {
+    margin-left: 25px;
+}
+
+.doctor-list li {
+    padding: 5px;
+}
+
+/* Hover danh sách bác sĩ */
+.doctor-list li:hover {
+    background-color: #78350f;
+    color: yellow;
+}
+
+/* Footer */
+.page-footer {
+    background-color: #78350f;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
